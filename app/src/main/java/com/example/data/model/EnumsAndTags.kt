@@ -39,7 +39,7 @@ data class SymptomTag(
 data class MoodTag(
     val id: String,
     val name: String,
-    val emoji: String
+    val emoji: String = ""
 ) {
     val displayName: String get() = name
 }
@@ -61,14 +61,14 @@ object TagLookup {
     val PRESEEDED_SYMPTOMS = commonSymptoms
 
     val commonMoods = listOf(
-        MoodTag("calm", "Calm", "😌"),
-        MoodTag("happy", "Happy", "😊"),
-        MoodTag("energetic", "Energetic", "⚡"),
-        MoodTag("tired", "Tired", "🥱"),
-        MoodTag("stressed", "Stressed", "🌪️"),
-        MoodTag("anxious", "Anxious", "🥺"),
-        MoodTag("irritable", "Irritable", "😣"),
-        MoodTag("low", "Low", "😔")
+        MoodTag("calm", "Calm"),
+        MoodTag("happy", "Happy"),
+        MoodTag("energetic", "Energetic"),
+        MoodTag("tired", "Tired"),
+        MoodTag("stressed", "Stressed"),
+        MoodTag("anxious", "Anxious"),
+        MoodTag("irritable", "Irritable"),
+        MoodTag("low", "Low")
     )
 
     val PRESEEDED_MOODS = commonMoods

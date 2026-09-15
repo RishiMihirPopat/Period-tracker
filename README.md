@@ -6,13 +6,13 @@
 
 ## Key Features
 
-### 🔒 100% Privacy & On-Device Security
+### 100% Privacy & On-Device Security
 - **Local SQLite / Room Database**: Sensitive health entries are persisted locally using modern Android Room architecture.
 - **Zero Third-Party Trackers**: No analytics, telemetry, remote advertising SDKs, or cloud synchronization.
 - **Encrypted Local Backup & Restore**: Export and import complete historical records in secure, user-managed backup files.
 - **Doctor / Clinical Report Generator**: Export structured clinical summaries in PDF and Markdown formats to share directly with healthcare providers.
 
-### 🔬 Scientific & Statistical Prediction Engine
+### Scientific & Statistical Prediction Engine
 - **Bayesian Shrinkage Model**: Smooths personal cycle variations using clinical population priors ($28 \pm 3.5$ days) for new users, progressively weighting personal history as cycle records accumulate.
 - **Multinomial & Cumulative Logit Modeling**: Predicts period onset ranges, fertile windows, and ovulation timing with explicit confidence intervals.
 - **Phase Detection**: Categorizes the four biological phases:
@@ -22,7 +22,7 @@
   - **Luteal Phase**
 - **Dynamic Adherence & Confidence Scoring**: Dynamically adjusts prediction intervals based on logging consistency and cycle regularity.
 
-### 📝 Comprehensive Daily Symptom & Biomarker Logging
+### Comprehensive Daily Symptom & Biomarker Logging
 - **Menstrual Flow**: None, Spotting, Light, Medium, Heavy.
 - **Physical Symptoms & Pain**: Cramps, headache, bloating, breast tenderness, fatigue, backache, acne, and custom tags with severity levels (Mild, Moderate, Severe).
 - **Mood & Energy**: Comprehensive mood states and multi-point energy level tracking.
@@ -30,18 +30,18 @@
 - **Intimacy & Protection**: Safe and private tracking of sexual activity and contraceptive methods.
 - **Notes & Journaling**: Freeform notes for personal context.
 
-### 📅 Visual Calendar & Day Details
+### Visual Calendar & Day Details
 - Month-by-month calendar view with dynamic color-coded phase dots and bleeding indicators.
 - Quick day selector with interactive day-detail bottom sheets.
 - "What to Expect" daily insights engine analyzing past cycle trends to provide timely symptom and energy expectations.
 
-### 📱 Samsung One UI 8 Style Home Screen Widget
+### Samsung One UI 8 Style Home Screen Widget
 - **Adaptive Layout**: Supports both compact (small grid) and expanded (multi-column) widget form factors.
 - **One UI 8 Aesthetics**: Styled with smooth rounded corners (`28dp`), semi-transparent surfaces, dynamic phase pill badges, and status indicator dots.
 - **Instant Glanceability**: Displays current cycle day, active phase, days until next milestone, and quick action buttons for single-tap logging.
 - **Android 12+ Responsive RemoteViews**: Responsive layout sizing with instant fallback rendering.
 
-### ⏰ Notifications & DST-Safe Reminders
+### Notifications & DST-Safe Reminders
 - Gentle notifications for upcoming periods, expected ovulation, and late cycle reminders.
 - **DST-Safe Scheduling**: Built with Java Time APIs to preserve exact 9:00 AM wall-clock trigger times across Daylight Saving Time (spring forward / fall back) transitions.
 

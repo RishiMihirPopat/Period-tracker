@@ -349,7 +349,7 @@ fun LogEntryScreen(
                         onClick = { onToggleMood(mood.id) },
                         label = {
                             Text(
-                                text = "${mood.emoji} ${mood.displayName}",
+                                text = mood.displayName,
                                 style = MaterialTheme.typography.bodyMedium.copy(
                                     fontSize = 13.sp,
                                     fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal

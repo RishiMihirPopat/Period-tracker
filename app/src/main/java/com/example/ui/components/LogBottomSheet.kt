@@ -609,7 +609,7 @@ private fun WellbeingStepContent(
                             .padding(horizontal = 12.dp, vertical = 7.dp)
                     ) {
                         Text(
-                            text = "${mood.emoji} ${mood.name}",
+                            text = mood.name,
                             style = MaterialTheme.typography.bodySmall.copy(
                                 fontWeight = if (isSelected) FontWeight.Medium else FontWeight.Normal
                             ),

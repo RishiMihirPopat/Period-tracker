@@ -1100,7 +1100,7 @@ fun SettingsScreen(
 
         // Signature Footer
         Text(
-            text = "made for Palkin, with ❤️",
+            text = "made for Palkin",
             style = MaterialTheme.typography.bodySmall.copy(
                 fontSize = 13.sp,
                 fontWeight = FontWeight.Normal,

@@ -145,7 +145,7 @@ fun DayDetailBottomSheet(
                             )
                             Spacer(modifier = Modifier.height(2.dp))
                             Text(
-                                text = "${moodObj?.emoji ?: "✨"} ${moodObj?.name ?: ""}",
+                                text = moodObj?.name ?: entity.mood.first(),
                                 style = MaterialTheme.typography.bodyMedium.copy(
                                     fontWeight = FontWeight.Medium,
                                     fontSize = 13.sp
