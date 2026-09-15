@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Samsung One UI 8 Widget Palette (Dark / Night) -->
+    <color name="widget_background">#1D1E22</color>
+    <color name="widget_stroke">#26FFFFFF</color>
+    <color name="widget_card_background">#26282E</color>
+    <color name="widget_card_stroke">#1EFFFFFF</color>
+    <color name="widget_text_primary">#F1F2F6</color>
+    <color name="widget_text_secondary">#9DA1AA</color>
+    <color name="widget_text_tertiary">#6E727A</color>
+    <color name="widget_divider">#2E3138</color>
+    <color name="widget_progress_track">#2C2F36</color>
+    <color name="widget_action_btn_bg">#2F3138</color>
+    <color name="widget_action_btn_text">#F2F4F8</color>
+
+    <!-- Phase Pill Colors (Dark / Night) -->
+    <color name="widget_phase_menstrual_bg">#47161E</color>
+    <color name="widget_phase_menstrual_stroke">#7F1D1D</color>
+    <color name="widget_phase_menstrual_text">#FCA5A5</color>
+    <color name="widget_dot_menstrual">#FB7185</color>
+
+    <color name="widget_phase_follicular_bg">#2C194D</color>
+    <color name="widget_phase_follicular_stroke">#4C1D95</color>
+    <color name="widget_phase_follicular_text">#DDD6FE</color>
+    <color name="widget_dot_follicular">#A78BFA</color>
+
+    <color name="widget_phase_ovulation_bg">#113735</color>
+    <color name="widget_phase_ovulation_stroke">#115E59</color>
+    <color name="widget_phase_ovulation_text">#5EEAD4</color>
+    <color name="widget_dot_ovulation">#2DD4BF</color>
+
+    <color name="widget_phase_luteal_bg">#3E2711</color>
+    <color name="widget_phase_luteal_stroke">#78350F</color>
+    <color name="widget_phase_luteal_text">#FDE68A</color>
+    <color name="widget_dot_luteal">#FBBF24</color>
+
+    <color name="widget_phase_neutral_bg">#25272F</color>
+    <color name="widget_phase_neutral_stroke">#3B404B</color>
+    <color name="widget_phase_neutral_text">#CBD5E1</color>
+    <color name="widget_dot_neutral">#94A3B8</color>
+</resources>

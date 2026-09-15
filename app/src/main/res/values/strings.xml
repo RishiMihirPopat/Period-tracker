@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cycle</string>
+    <string name="widget_name">Cycle Day</string>
+    <string name="widget_description">View your cycle day, phase, and next period timing in Samsung One UI 8 style.</string>
+    <string name="widget_header_category">CYCLE DAY</string>
+    <string name="widget_action_log">+ Log</string>
+    <string name="widget_action_log_today">+ Log Today</string>
+    <string name="widget_not_tracking">Start Tracking</string>
+    <string name="widget_tap_to_log">Tap to log your period</string>
+</resources>
